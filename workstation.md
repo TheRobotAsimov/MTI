@@ -13,7 +13,7 @@
 7. Base de datos
 8. Crear proyecto ``laravel new sw_ep1 --jet`` jetstream -> inertia para SPA (Single Page Aplication) -> phpunit -> no teams -> yes dark mode 
 
-(STACK: laravel, jetstream, inertia, vue)       (tailwind, bootstrap)
+(STACK: laravel, jetstream, inertia, vue)       (<u>tailwind</u>, bootstrap)
         Backend        Puentes     Fronted
 
 (Angular, React, Vue: Frameworks Fronted) (CRUD: Create, Read, Update, Delete)
