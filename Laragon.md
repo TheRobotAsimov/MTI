@@ -1,8 +1,10 @@
-# LARAGON
+# PROYECTO LARAVEL
 
 ## Pasos para crear un proyecto
 
 Laravel es un backend de PHP
+
+(`composer global requiere ...`)
 
 1. Crear proyecto: `laravel new <project_name> --jet` (--jet es porque quiero usar el stack)
 
@@ -12,6 +14,7 @@ Laravel es un backend de PHP
     -> yes dark mode (opcional)
 
 2. Ejecutar migraciones `php artisan migrate` -> yes, tiene que ver con la base de datos 
+
 
    En el .env del proyecto puedes interactuar con distintos tipos de bases de datos
 
@@ -42,10 +45,14 @@ Laravel es un backend de PHP
 
 Los archivos son clases
 
+(Control + P para buscar)
+
 - **routes** -> web.php: end-points (punto 4)
 - **app** -> Models -> User.php: modelos de tu aplicación (punto 1)
 - **database** -> migrations: todas las migraciones
-- **Http** -> Controllers -> Controller.php: Model <-Controller-> Vistas
+- **database** -> seeders:
+- **app** -> Http -> Controllers -> Controller.php: Model <-Controller-> Vistas
+- **app** -> Http -> Requests: Validar información antes del store
 - **resources** -> js -> Pages: vistas
 
 ## Ejemplo
@@ -70,6 +77,38 @@ Los archivos son clases
 - Alterar controlador
 
 - Crear vistas: Se crean 3 archivos en ./Pages -> ./institutions/ Create.vue - Edit.vue - Index.vue
+
+## Vue
+
+- Estructura básica: template, script, style
+- Vue3 tiene el método setup que compacta el código
+
+## Controller
+
+Intermediario entre las vistas y el modelo
+
+Vistas: Index.vue
+^
+|
+Inertia
+|
+v
+Controller: InstitutionsController, Index()
+Model: Institutions, id, name
+
+## Factory
+
+Inyectar factores de prueba
+
+Para pruebas de estrés
+
+Método que se utiliza para generar registros ficticios o de prueba. 
+
+`php artisan migrate:fresh --seed` para ejecutar las migraciones junto con los seeders
+
+## Seeder
+
+Funcionalidad que se utiliza para agregar datos iniciales
 
 <br>
 
