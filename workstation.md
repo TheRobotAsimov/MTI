@@ -6,7 +6,7 @@
 
 1. Laragon funciona con versiones de PHP y java "antiguas", por lo que se tienen que actualizar.
 2. Se comprueba la versión llendo a la terminal y escribiendo ``node --version``
-3. Instalar composer (para descargar muchas independencias vía composer) y ``composer -v``
+3. Instalar composer (para descargar muchas dependencias vía composer) y ``composer -v``
 4. nmp es una gestión de independencias de nodejs, de igual forma ``nmp -v``
 5. Se activa Nginx
 6. Laravel
@@ -20,7 +20,7 @@
 
 9. Después se ingresa al proyecto por ls y cd y code .
 10. Entrar a .env
-11. Ejecutar emigraciones (tablas) ``php artisan migrate``
+11. Ejecutar migraciones (tablas) ``php artisan migrate``
 12. Ejecutar proyecto ``npm run dev``
 13. Abrir una nueva terminal (El signo + que está abajo y start)
 14. Para abrirlo, click derecho en laragon -> www y elegir proyecto

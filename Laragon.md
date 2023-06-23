@@ -8,10 +8,10 @@ Laravel es un backend de PHP
 
 1. Crear proyecto: `laravel new <project_name> --jet` (--jet es porque quiero usar el stack)
 
-    -> inertia
-    -> phpunit (no lo ocupamos)
-    -> no teams
-    -> yes dark mode (opcional)
+    -> inertia <br>
+    -> phpunit (no lo ocupamos) <br>
+    -> no teams <br>
+    -> yes dark mode (opcional) <br>
 
 2. Ejecutar migraciones `php artisan migrate` -> yes, tiene que ver con la base de datos 
 
@@ -27,7 +27,13 @@ Laravel es un backend de PHP
 
 ## Pasos para ampliar proyectos
 
-1. Crear el modelo con todos sus elementos: migración modelo, contador, request, policys
+1. Crear el modelo con todos sus elementos: 
+   
+   migración <br> 
+   modelo <br>
+   contador <br>
+   request <br>
+   policys <br>
 
     Convención de Laravel: Clase en singular y la primera en mayúscula: Flight
 
@@ -57,7 +63,7 @@ Los archivos son clases
 
 ## Ejemplo
 
-- En la carpeta del proyecto: `php artisan make:model Institution -a`,  -a = all
+- En la carpeta del proyecto: `php artisan make:model Institution -a`
 
     ![elementos](Elementos.png)
 
