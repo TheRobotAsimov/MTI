@@ -63,7 +63,7 @@ Los archivos son clases
 
 ## Ejemplo
 
-- En la carpeta del proyecto: `php artisan make:model Institution -a`
+- En la carpeta del proyecto, para escalar el proyecto: `php artisan make:model Institution -a`
 
     ![elementos](Elementos.png)
 
